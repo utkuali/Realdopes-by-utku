@@ -113,7 +113,7 @@ Citizen.CreateThread(function() -- To check if you remain in the area // Üretim
     Citizen.Wait(100)
 	while true do
 		local sleepThread = 200
-    	for locationIndex = 1, #Config.ProdcutionLocations do
+    	for locationIndex = 1, #Config.ProductionLocations do
         	local locationPos = Config.ProductionLocations[locationIndex]
 
         	local ped = PlayerPedId()
